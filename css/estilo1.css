@@ -1,0 +1,103 @@
+/* Estilos generales */
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+  }
+  
+  h2 {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+  }
+  
+  header, section, footer, aside, nav, article, figure, figcaption, hgroup {
+    display: block;
+  }
+  
+  /* Estilos específicos por ID o elemento */
+  
+  #agrupar {
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+  }
+  
+  #cabecera {
+    background: #002F6C; /* Azul institucional UTNG - investigar combinación RGB */
+    color: white;
+    border: 1px solid #999999;
+    padding: 20px;
+  }
+  
+  #menu {
+    background-color: gray;
+    padding: 5px 15px;
+  }
+  
+  #menu li {
+    display: inline;
+    list-style: none;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+  }
+  
+  #seccion {
+    float: left;
+    width: 660px;
+    margin: 20px;
+  }
+  
+  #columna {
+    float: right;
+    width: 220px;
+    height: 340px;
+    margin: 20px 0;
+    background-color: #00573D; /* Verde institucional UTNG - investigar combinación RGB */
+    color: white;
+  }
+  
+  #pie {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #999999;
+  }
+  
+  article {
+    background-color: #FFFBCC;
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+  
+  article footer {
+    text-align: right;
+  }
+  
+  time {
+    color: #999999;
+  }
+  
+  figcaption {
+    font-style: italic;
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+  }
+  
+  img {
+    width: 70px;
+  }
+  
+  li:first-letter {
+    text-transform: uppercase;
+  }
